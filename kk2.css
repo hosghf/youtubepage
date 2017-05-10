@@ -1,0 +1,124 @@
+body{
+  margin:0;
+}
+div {
+  display: inline-block;
+}
+nav {
+  height: 34px;
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  min-width: 0;
+  padding-bottom: 8px;
+  padding-top: 7px;
+  position: relative;
+}
+#d1 {
+  height: 100%;
+  width: 16%;
+}
+#d2 {
+  height: 100%;
+  width: 58%;
+}
+#d3 {
+  width:24%;
+  height:100%;
+}
+.d {
+  display: inline-block;
+  vertical-align: top;
+}
+button, input, a{
+  margin: 3px 4px;
+}
+.search-input {
+  width: 582px;
+  border: 1px solid #e8e8e8;
+  padding: 2px 6px;
+  font-size: 16px;
+  height: 29px;
+  margin-left: 18px;
+  border-radius: 3px;
+  position: relative;
+  top: -9px;
+}
+#search-bt {
+  margin-left: -11px;
+  height: 29px;
+  border: none;
+  width: 66px;
+  border-radius: 1px;
+  background: #f8f8f8;
+}
+#search-span {
+  border: none;
+  display: block;
+  opacity: .6;
+  padding: 0;
+  text-indent: -10000px;
+  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNVER5Q.webp) -694px -43px;
+  background-size: auto;
+  width: 15px;
+  height: 15px;
+  box-shadow: none;
+  margin-left: 20px;
+}
+#sineup-bt {
+  position: relative;
+  left: 160px;
+}
+ #logo {
+  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNVER5Q.webp) -178px -227px;
+  height: 35px;
+  width: 80px;
+  border-style: none;
+  margin-top:3px;
+  
+}
+#menu {
+  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNVER5Q.webp) -571px -108px;
+  background-size: auto;
+  width: 16px;
+  height: 16px;
+  border: 0;
+  margin-left: 34px;
+  margin-top: 10px;
+}
+#dnw {
+    background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNVER5Q.webp) -106px -28px;
+    background-size: auto;
+    width: 24px;
+    height: 24px;
+}
+#sineup {
+  width: 55px;
+  height: 28px;
+  background: #167ac6;
+  color: #fff;
+  border: 0;
+}
+.d3e {
+  position: relative;
+  left: 178px;
+}
+#sineup {
+  border-radius: 3px;
+}
+#dnw {
+  margin: 5px 6px 0  0;
+  opacity: .5;
+}
+section {
+  width: 50%;
+  height: 300px;
+  display: inline-block;
+  margin: 10px 0 0 100px;
+}
+aside{
+  width: 32.7%;
+  height: 400px;
+  background: black;
+  float: right;
+  margin: 10px 100px 0 3px;
+}

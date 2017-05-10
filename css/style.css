@@ -1,0 +1,90 @@
+body {
+  background: #efefef;
+  margin: 0;
+  margin-top: 10px;
+}
+header {
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  position: fixed;
+
+  display: inline-block;
+  vertical-align: top;
+}
+aside {
+  width: 33.5%;
+  height: 600px;
+  background: black;
+  float: right;
+  margin: 70px 90px 20px 0;
+}
+footer {
+  width: 100%;
+  height: 40px;
+  background: black;
+  clear: both;
+}
+.d1 {
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+}
+.d2 {
+  display: inline-block;
+  width: 40%;
+  height: 100%;
+}
+.d3 {
+  display: inline-block;
+  width: 14%;
+  height: 100%;
+}
+.hd {
+  display: inline-block;
+  background: red;
+}
+ #arm {
+  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNVER5Q.webp) -178px -227px;
+  height: 35px;
+  width: 80px;
+  border-style: none;
+}
+ #menu {
+  height: 18px;
+  width: 18px;
+  background: no-repeat url(http://s.ytimg.com/yts/imgbin/www-hitchhiker-vflNVER5Q.webp) -322px -168px;
+  border-style: none;
+}
+#sebt {
+  height: 40%;
+  width: 80px;
+}
+#sinput {
+  width: 70%;
+
+  height: 40%;
+  width: 80px;
+}
+#sineupbt {
+  height: 40%;
+}
+#sineupbt {
+  background: blue;
+  height: 40%;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+}
+.sec {
+  width: 50%;
+  height: 200px;
+  margin: 70px 5px 20px 100px;
+  background: black;
+  display: inline-block;
+}
+.d {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%; 
+}
