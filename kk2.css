@@ -1,5 +1,6 @@
 body{
   margin:0;
+  background: #f1f1f1;
 }
 div {
   display: inline-block;
@@ -12,6 +13,9 @@ nav {
   padding-bottom: 8px;
   padding-top: 7px;
   position: relative;
+}
+h4 {
+  margin: 0;
 }
 #d1 {
   height: 100%;
@@ -110,15 +114,47 @@ button, input, a{
   opacity: .5;
 }
 section {
-  width: 50%;
-  height: 300px;
+  width: 640px;
+  height: 360px;
   display: inline-block;
   margin: 10px 0 0 100px;
+  background: black;
 }
 aside{
   width: 32.7%;
-  height: 400px;
-  background: black;
+  height: auto;
+  background: #fff;
   float: right;
   margin: 10px 100px 0 3px;
+}
+aside  div{
+  margin: 8px;
+  width: 100%;
+}
+img {
+  width: 168px;
+  height: 94px;
+}
+aside div  a:nth-child(1) {
+  display: inline-block;
+  width: 170px;
+  margin: 1px;
+  vertical-align: top;
+}
+aside div  a:nth-child(2) {
+  display: inline-block;
+  width: 200px;
+  margin: 1px;
+  vertical-align: top;
+}
+aside div  a span {
+  display: block;
+}
+aside p:nth-child(1) {
+  float: left;
+  margin: 6px;
+}
+aside p:nth-child(2) {
+  float: right;
+  margin: 6px;
 }
