@@ -12,6 +12,16 @@ nav {
   padding-top: 7px;
   position: relative;
 }
+footer {
+  width: 95.2%;
+  height: auto;
+  background: #fff;
+  padding: 16px 30px;
+}
+a {
+  text-decoration: none;
+  color: #383838;
+}
 h4 {
   margin: 0;
 }
@@ -76,7 +86,6 @@ button, input, a{
   width: 80px;
   border-style: none;
   margin-top:3px;
-  
 }
 #menu {
   background: no-repeat url(youtub.webp) -571px -108px;
@@ -264,5 +273,44 @@ hr {
   opacity: .6;
 }
 #div-detail span {
-    margin: -2px 0 0 0;
+  margin: -2px 0 0 0;
+}
+#section-3 {
+  padding: 16px;
+  width: 610px;
+  margin-bottom: 15px;
+  font-size: 12px;
+  margin-bottom: 140px;
+}
+#section-3 a {
+  width: 80px;
+  margin: 0 auto;
+  text-decoration: none;
+  display: block;
+  color: #383838;
+}
+footer #footer-arm {
+  display: inline-block;
+  background: no-repeat url(youtub.webp) -178px -227px;
+  height: 35px;
+  width: 80px;
+  vertical-align: middle;
+}
+footer #footer-div1 button {
+  font-size: 11px;
+  padding: 4px 8px;
+  margin: 8px 8px 8px 8px;
+}
+footer div ul  li{
+  display: inline-block;
+  padding: 0 3px;
+}
+footer #footer-div2 ul  li{
+  font-size: 12px;
+}
+footer #footer-div3 ul  li{
+  font-size: 11px;
+}
+footer #footer-div2,#footer-div3 {
+  margin-left: -44px;
 }
